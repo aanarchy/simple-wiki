@@ -3,8 +3,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Index Page'
+    return 'Home Page'
 
-@app.route('/hello')
-def hello():
-    return 'Hello, World'
+@app.route('/about')
+def about():
+    return 'About'
+
+@app.route('/user/<username>')
+def user_profile(username):
+    return 'User %s' username
