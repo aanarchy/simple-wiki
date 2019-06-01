@@ -1,2 +1,2 @@
-# simple-wiki
-A barebones wiki built using django. 
+# liberalmemes
+A meme website built using flask. 

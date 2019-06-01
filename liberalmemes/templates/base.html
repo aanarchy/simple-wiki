@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - liberalmemes</title>
+      {% else %}
+      <title>Welcome to liberalmemes</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>liberalmemes: <a href="/home">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

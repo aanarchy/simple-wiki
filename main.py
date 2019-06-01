@@ -1,0 +1,1 @@
+from liberalmemes import app
