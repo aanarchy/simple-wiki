@@ -1,4 +1,4 @@
-#!/run/media/faith/HDD/github/simple-wiki/venv/bin/python
+#!/run/media/faith/HDD/github/liberalmemes/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/run/media/faith/HDD/github/simple-wiki/venv"
+set -gx VIRTUAL_ENV "/run/media/faith/HDD/github/liberalmemes/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
